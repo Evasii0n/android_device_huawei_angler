@@ -15,6 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_angler.mk
     $(LOCAL_DIR)/omni_angler.mk
-    $(LOCAL_DIR)/full_angler.mk
