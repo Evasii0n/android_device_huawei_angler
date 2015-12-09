@@ -43,9 +43,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Inherit some common Omni stuff
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
